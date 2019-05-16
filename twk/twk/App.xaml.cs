@@ -11,7 +11,13 @@ namespace twk
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+          //  MainPage = new MainPage(); 
+            MainPage = new NavigationPage(
+    new Page.Login())
+            {
+                BarTextColor = Color.White
+
+            };
         }
 
         protected override void OnStart()

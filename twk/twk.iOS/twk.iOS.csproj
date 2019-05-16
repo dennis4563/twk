@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{47C704AF-CECA-4D73-BE87-5348D303E7CC}</ProjectGuid>
+    <ProjectGuid>{0EBBA959-8C46-4BE7-BF5A-B602F9044CE8}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{6143fdea-f3c2-4a09-aafa-6e230626515e}</TemplateGuid>
     <OutputType>Exe</OutputType>
@@ -153,8 +153,11 @@
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\twk\twk.csproj">
-      <Project>{24B43C56-BAD0-4F16-A4A6-F597B0D7804C}</Project>
+      <Project>{ACCDCE8D-0B1F-442F-8622-4D98DCE2C5F1}</Project>
       <Name>twk</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\homero.png" />
   </ItemGroup>
 </Project>

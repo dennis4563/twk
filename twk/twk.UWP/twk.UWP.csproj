@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{83AD0C5A-264F-4020-AC9D-99260E724AFE}</ProjectGuid>
+    <ProjectGuid>{20800E8F-155D-482E-A299-260D122E11F7}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>twk.UWP</RootNamespace>
@@ -148,7 +148,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\twk\twk.csproj">
-      <Project>{24B43C56-BAD0-4F16-A4A6-F597B0D7804C}</Project>
+      <Project>{ACCDCE8D-0B1F-442F-8622-4D98DCE2C5F1}</Project>
       <Name>twk</Name>
     </ProjectReference>
   </ItemGroup>
